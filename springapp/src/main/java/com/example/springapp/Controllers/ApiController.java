@@ -1,6 +1,6 @@
 
     public class ApiController {
-    @RequestMapping("/welcome")
+    @RequesMapping("/welcome")
         public String Welcome()
         {
             return "Welcome String Boot";
